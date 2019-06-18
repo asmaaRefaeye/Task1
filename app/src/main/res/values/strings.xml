@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CreativeDesgin</string>
+
+    <string name="button1">فزغانى</string>
+    <string name="button2">الاخرين</string>
+    <string name="button3">الغاء</string>
+    <string name="tab1">قيد الانتظار</string>
+    <string name="tab2">تم القبول</string>
+    <string name="tab3">تم الالغاء</string>
+    <string name="item1desc">ابى اروح الهايبر وما عندى سيارة ممكن حد يودينى</string>
+    <string name="item2desc">بنات ضرورى عندى عزومة وابى حد يساعدنى</string>
+    <string name="hours">منذ ساعة</string>
+    <string name="mens">رجال</string>
+    <string name="women">سيدات</string>
+    <string name="car">فزعة سيارة</string>
+    <string name="eat">فزعة أكل</string>
+    <string name="fazaa1"> 2فزعوا</string>
+    <string name="fazaa2"> 3فزعوا</string>
+    <string name="endButton">الغاء</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

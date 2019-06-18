@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".Views.FragmentTabThree">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/carimageView"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:src="@drawable/type_car" />
+
+        <TextView
+            android:id="@+id/fristRequestTextView"
+            android:layout_toEndOf="@+id/carimageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item1desc"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/carimageView" />
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_toEndOf="@+id/carimageView"
+            android:layout_below="@+id/fristRequestTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/carimageView">
+
+
+            <ImageView
+                android:id="@+id/time_image"
+                android:background="@drawable/my_list_help_accepted_time"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/time_text"
+                android:text="@string/hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/men_image"
+                android:background="@drawable/my_list_help_accepted_info_attendance"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/men_text"
+                android:text="@string/mens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/fazaa_car_image"
+                android:background="@drawable/my_list_help_accepted_info_help_type"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/fazaa_car_text"
+                android:text="@string/car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/fazaa_number_image"
+                android:background="@drawable/my_list_help_accepted_accept"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/fazaa_number_text"
+                android:text="@string/fazaa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/cookimageView"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:src="@drawable/type_food" />
+
+        <TextView
+            android:id="@+id/secondRequest_textView"
+            android:layout_toEndOf="@+id/cookimageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/item2desc"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/cookimageView" />
+
+        <LinearLayout
+            android:id="@+id/linearlayouttwo"
+            android:layout_toEndOf="@+id/cookimageView"
+            android:layout_below="@+id/secondRequest_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_toRightOf="@+id/cookimageView">
+
+
+            <ImageView
+                android:id="@+id/time2_image"
+                android:background="@drawable/my_list_help_accepted_time"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/time2_text"
+                android:text="@string/hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:id="@+id/women_image"
+                android:background="@drawable/my_list_help_accepted_info_attendance"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/women_text"
+                android:text="@string/women"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/fazaa_eat_image"
+                android:background="@drawable/my_list_help_accepted_info_help_type"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/fazaa_eat_text"
+                android:text="@string/eat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/fazaa_number2_image"
+                android:background="@drawable/my_list_help_accepted_accept"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/fazaa_number2_text"
+                android:text="@string/fazaa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/lineview"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tabcolor"
+
+            />
+
+    </RelativeLayout>
+</FrameLayout>
